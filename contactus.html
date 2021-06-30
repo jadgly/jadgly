@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact US</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+           <form id="userForm">
+        <div class="container" id="aboutus-count">  
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="lebanon">Lebanon</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  </div>
+            <br>
+            
+    <button type="button" onclick="ProcessForm()">Submit</button>
+            </form>
+        <script src="code.js"></script>
+    </body>
+</html>

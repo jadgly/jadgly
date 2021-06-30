@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jad Restaurant</title>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <div class="navbar-box">
+                <h3 class="heading-tertiary"> Jad Restaurant</h3>
+            </div>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#all-menu" class="navbar-link">Menu</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="contactus.html" class="navbar-link">Contact Us</a>
+                </li>
+               
+            </ul>
+            <div class="toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+        <div class="header-container">
+            <div class="video">
+                <video loop muted autoplay id="video">
+                    <source src="imgs/video.mp4" type="video/mp4">
+                        This file type is not supported
+                </video>
+            </div>
+            <div class="header-box">
+                <h1 class="heading-primary">
+                    Best <br> <span id="restaurant">Restaurant</span> <br> Lebanon
+                </h1>
+                <p class="lead">This Website Done by Jad Doughaili</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="menu" id="all-menu">
+        <div class="container" id="menu-cont">
+            <div class="menu-heading">Menu</div>
+            <div class="menu-grid">
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" id="img1">
+                            &nbsp;
+                            
+                        </div>
+                       
+                        <h1 class="menu-title" id ="title1">Chicken Pizza</h1>
+                        <br>
+                        <h3 class="price" ><input type=checkbox id="op1" value="30000"><span>&nbsp;30,000LBP</span></h3>
+
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" id="img2">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title" id ="title2"> Burger</h1>
+                        <p class="price"><input type=checkbox id="op2" value="20000"><span>&nbsp;20,000LBP</span></p>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" id="img3">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title" id ="title3">Pasta</h1>
+                        <h3 class="price"><input type=checkbox id="op3" value="20000"><span>&nbsp;20,000LBP</span></h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" id="img4">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title" id ="title4">Sushi</h1>
+                        <h3 class="price"><input type=checkbox id="op4" value="40000"><span>&nbsp;40,000LBP</span> </h3>
+                    </div>
+                    <br>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" id="img5">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title" id ="title5">juice</h1>
+                        <h3 class="price"><input type=checkbox id="op5" value="10000"><span>&nbsp;10,000LBP</span> </h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" id="img6">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title" id ="title6">Cofee</h1>
+                        <h3 class="price"><input type=checkbox id="op6" value="5000"><span>&nbsp;5,000LBP</span></h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" id="img7">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title" id ="title7">Pepsi</h1>
+                        <h3 class="price"><input type=checkbox id="op7" value="5000"><span>&nbsp;5,000LBP</span></h3>
+                    </div>
+                </div>
+                <div class="menu-hold">
+                    <div class="menu-container">
+                        <div class="menu-img" id="img8">
+                            &nbsp;
+                        </div>
+                        <h1 class="menu-title" id ="title8">Water</h1>
+                        <h3 class="price"><input type=checkbox id="op8" value="1000"><span>&nbsp;1,000LBP</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+             <button onclick="cal()">order now</button>
+            </div>
+            <div>
+            <p id="res"></p>
+            </div>
+        </div>
+        <br>
+    
+        <footer>
+				&copy; Jad Restaurant 2021
+			</footer>
+    </section>
+    <script src="code.js"></script>
+</body>
+
+</html>
